@@ -1,0 +1,21 @@
+repartee contains the following components:
+
+* Twitter Bootstrap, by @mdo and @fat
+
+    http://twitter.github.com/bootstrap/
+
+    Bootstrap is licensed under Apache License 2.0 (LICENSE.Apache) and is compatible with MIT License.
+
+* jQuery, by jQuery Foundation
+
+    http://jquery.org/
+
+    jQuery uses the MIT License (LICENSE) and is included in Twitter Bootstrap. 
+
+* bootstrap-datetimepicker, by Sebastien MALOT
+
+    http://www.malot.fr/bootstrap-datetimepicker/
+
+    bootstrap-datetimepicker is licensed under Apache License 2.0 (LICENSE.Apache) and is compatible with MIT License.
+
+repartee is licensed under MIT License (LICENSE).

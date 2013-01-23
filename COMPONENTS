@@ -18,4 +18,10 @@ repartee contains the following components:
 
     bootstrap-datetimepicker is licensed under Apache License 2.0 (LICENSE.Apache) and is compatible with MIT License.
 
+* bootstrap-multiselect, by David Stutz
+
+    https://github.com/davidstutz/bootstrap-multiselect
+
+    bootstrap-multiselect is licensed under Apache License 2.0 (LICENSE.Apache) and is compatible with MIT License.
+
 repartee is licensed under MIT License (LICENSE).

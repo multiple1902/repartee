@@ -3,4 +3,45 @@
         weekStart: 1,
         autoclose: 1,
     });
+
+    $(document).ready(function() {
+        $('.multiselect').multiselect({
+          'button': 'btn btn-multiselect',
+          'width': 'auto',
+          'text': function(options) {
+            if (options.length == 0) {
+              return 'None selected';
+            }
+            else if (options.length > 3) {
+              return options.length + ' selected';
+            }
+            else {
+              var selected = '';
+              options.each(function() {
+                selected += $(this).text() + ', ';
+              });
+              return selected.substr(0, selected.length -2);
+            }
+          }
+        });
+        $('.multiselect-behavior').multiselect({
+          'button': 'btn',
+          'width': 'auto',
+          'text': function(options) {
+            if (options.length == 0) {
+              return 'None selected';
+            }
+            else if (options.length > 1) {
+              return options.length + ' selected';
+            }
+            else {
+              var selected = '';
+              options.each(function() {
+                selected += $(this).text() + ', ';
+              });
+              return selected.substr(0, selected.length -2);
+            }
+          }
+        });
+    }); 
 </script>

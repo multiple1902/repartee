@@ -1,0 +1,12 @@
+.navbar li.active a {
+	font-weight: bold;
+}
+
+.motto {
+	float: right;
+	max-width: 400px;
+}
+
+form div.btn-group, form div.btn-group button {
+    width: 220px !important;
+}

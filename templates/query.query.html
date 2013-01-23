@@ -9,11 +9,16 @@
               {% include "queryForm.inc.html" with queryForm=queryForm %}
           </div>
           <div class="well span9">
-              {% include "queryResult.inc.html" %}
+              {% include "queryResult.inc.html" with resultsCount=resultsCount %}
           </div>
       </div>
     </div>
 
-      <hr>
+    <hr>
+
+    <script type="text/javascript">
+        var repartee = repartee || {};
+        repartee.queryid = "{{ queryID }}";
+    </script>
 
 {% endblock %}

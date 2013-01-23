@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}repartee: home{% endblock title %}
+
+{% block navBar %}
+{% include "navbar.inc.html" with pageName="index" %}
+{% endblock navBar %}
+
+{% block pageBody %}
+
+<!-- Masthead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="row">
+    <div class="span6">
+      <h1>repartee</h1>
+      <!--<p class="lead">next generation DPI</p>-->
+    </div>
+    <div class="span6">
+      <div class="motto well">
+          An apple a day keeps the doctor away.
+      </div>
+    </div>
+  </div>
+  <div class="subnav">
+    <ul class="nav nav-pills">
+      <li><a href="#dashboard">Dashboard</a></li>
+      <li><a href="#design">Design</a></li>
+      <li><a href="#paper">Paper</a></li>
+      <li><a href="#implementation">Implementation</a></li>
+      <li><a href="#acknowledgements">Acknowledgements</a></li>
+      <li><a href="#data-sources">Data Sources</a></li>
+      <li><a href="#open-source">Open Source</a></li>
+    </ul>
+  </div>
+</header>
+
+{% include "dashboard.inc.html" %}
+
+{% endblock %}

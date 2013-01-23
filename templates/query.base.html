@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block navBar %}
+{% include "navbar.inc.html" with pageName="query" %}
+{% endblock navBar %}
+
+{% block pageBody %}
+
+<div class="jumbotron masthead">
+  <div class="container">
+    <h1>repartee</h1>
+    <p>next-generation dpi</p>
+    <p>
+      <a href="/query" class="btn btn-primary btn-large" >make a query</a>
+    </p>
+    <ul class="masthead-links">
+      <li>
+        <a href="http://github.com/twitter/bootstrap" >GitHub project</a>
+      </li>
+      <li>
+        <a href="./getting-started.html#examples" >Examples</a>
+      </li>
+      <li>
+        <a href="./extend.html" >Extend</a>
+      </li>
+      <li>
+        Version 2.2.2
+      </li>
+    </ul>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,7 @@
+              <form action="/query" method="POST">
+                  {% csrf_token %}
+                  {{ queryForm.as_p }}
+
+                  <hr>
+                  <button class="btn btn-primary btn-large" type="submit">Submit Query</button>
+              </form>

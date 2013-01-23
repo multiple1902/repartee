@@ -20,7 +20,7 @@ Technical Specs
 Related Project
 ===============
 
-* `KOP-DPI-System <https://github.com/aquatoney/KOP-DPI-System>`_ (aquatoney)
+* `KOP-DPI-System <https://github.com/antsgroup/KOP-DPI-System>`_ (ANTS Group, Xi'an Jiaotong University)
     This filters raw traffic (pcap) and produces output regarding meta info of flows, such as OS name, app name, app behavior as well as src / dst IP / ports.
 
 Paper
